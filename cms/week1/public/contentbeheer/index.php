@@ -1,12 +1,8 @@
-<?php
-include "../../private/init.php";
+<?php include "../../private/init.php"; ?>
+<?php include   SHARED_PATH . "/header.php"; phpinfo()?>
 
-include SHARED_PATH . "/header.php";
-include SHARED_PATH . "/main.php";
-include SHARED_PATH . "/footer.php";
+<h1>
+    Beheer
+</h1>
 
-
-// include "../../private/shared/header.php";
-// include "../../private/shared/main.php"; 
-// include "../../private/shared/footer.php"; 
-?>
+<?php include SHARED_PATH . "/footer.php"; ?>

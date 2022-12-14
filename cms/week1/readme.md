@@ -1,4 +1,6 @@
-Mediacollege website verlijken: direct en indirect
+# CMS
+
+## verschil direct en indirect Mediacollege website
 
 Wanneer je de link intypt krijg je:
 Referrer Policy: strict-origin-when-cross-origin.
