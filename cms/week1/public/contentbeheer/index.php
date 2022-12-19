@@ -1,5 +1,5 @@
 <?php include "../../private/init.php"; ?>
-<?php include   SHARED_PATH . "/header.php"; phpinfo()?>
+<?php include   SHARED_PATH . "/header.php";?>
 
 <h1>
     Beheer

@@ -1,6 +1,8 @@
 <?php
+// Function to read files
+declare(strict_types=1);
 
-function lees_bestand($string){
+function lees_bestand(string $string){
     $bestand = fopen($string, "r");
 
     while(!feof($bestand)){
@@ -9,6 +11,7 @@ function lees_bestand($string){
     }
 }
 
+// Function to go to another url path
 $root = substr($_SERVER['SCRIPT_NAME'],
     0,
     strpos($_SERVER['SCRIPT_NAME'], '/public') + 7);

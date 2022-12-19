@@ -13,6 +13,7 @@
 <body>
     <header class='header'>
         Welkom
+        <!-- <?php echo url_path("../contentbeheer/form.php");?> -->
     </header>
 
 </body>
