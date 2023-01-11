@@ -25,8 +25,8 @@ body {
     align-items: center;
     gap: .5rem;
     width: 25rem;
-    height: 24rem;
-    background: red;
+    height: 27rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0, .5);
     border-radius: 1rem;
 }
 
@@ -36,4 +36,16 @@ body {
 
 .form__input {
     width: 20rem;
+}
+
+.form__submit{
+    border-radius: .5rem;
+    background: none;
+    width: 8rem;
+    height: 3rem;
+}
+
+.form__submit:hover{
+    background: grey;
+    cursor: pointer;
 }

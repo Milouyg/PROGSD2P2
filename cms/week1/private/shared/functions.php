@@ -2,7 +2,7 @@
 // Function to read files
 declare(strict_types=1);
 
-function lees_bestand(string $string){
+function lees_bestand(string $string): void{
     $bestand = fopen($string, "r");
 
     while(!feof($bestand)){
@@ -18,9 +18,10 @@ $root = substr($_SERVER['SCRIPT_NAME'],
 
 define("ROOT_URL", $root);
 
-function url_path($path) {
+function url_path(string $path): string {
     if($path[0] != '/') {
         $path = "/" . $path;
     }
     return ROOT_URL . $path;
 }
+

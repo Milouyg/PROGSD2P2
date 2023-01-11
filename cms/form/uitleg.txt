@@ -1,0 +1,10 @@
+$_SERVER[‘REQUEST_METHOD’] Welke request methode gebruikt was om toegang te krijgen van de pagina
+$_POST['submit'] Is een super global variable wat gebruikt wordt om data te verzamelen van de form na het verzenden van de HTML form
+
+Verschil
+$_SERVER[‘REQUEST_METHOD’] wordt gebruikt om te weten welke request methode wordt gebruikt.
+$_POST['submit'] wordt gebruikt om de verzonde waarde via de HTTP POST method te krijgen.
+
+Stripslashes: Deze functie verwijderd backslashes 
+Addslashes: Voegt addslashes toe
+Specialchars

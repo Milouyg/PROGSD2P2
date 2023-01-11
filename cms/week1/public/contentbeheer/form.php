@@ -69,3 +69,9 @@ function checkFormValues($formPostKey)
 </html>
 
 <?php include "../../private/shared/footer.php"; ?>
+
+<?php
+$db = "INSERT INTO beheerder(voornaam, achternaam, email, bericht)
+        VALUES(voornaam, achternaam, email, comment)";
+
+?>
